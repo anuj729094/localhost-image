@@ -11,7 +11,7 @@ function App() {
   const arr = ["Strap - Long", "Color", "Size", "Brand", "Material"]
   return (
     <div className='maincon fixed w-full h-full  sm:flex sm:justify-center sm:items-center sm:py-4 '>
-      <div className='innercon overflow-y-auto bg-white   w-full  h-full sm:w-[24rem]  rounded-xl xl:h-[35rem] p-2'>
+      <div className='innercon overflow-y-auto bg-white   w-full  h-full sm:w-[24rem]  rounded-xl xl:h-[35rem] sm:p-2'>
       <div className=''>
         <div className=" header rounded-tl-xl rounded-tr-xl sticky top-0 z-10 flex justify-between items-end text-blue-500 px-3 bg-blue-100 py-3 text-lg">
           <div className=" assistantprofile flex items-center gap-2">
@@ -106,7 +106,7 @@ function App() {
         </div>
         <div className="sticky rounded-bl-xl rounded-br-xl   bottom-0 messagebox bg-blue-100 py-3 px-3">
           <div className='flex  gap-1'>
-            <div className="input  flex rounded justify-between items-center w-full bg-white pl-4 pr-2 py-2">
+            <div className="input  flex rounded  items-center w-full  bg-white p-2">
               <input type="text" placeholder='Type your message' className=' bg-transparent outline-none' />
               <CiLink className=' text-2xl' />
             </div>
