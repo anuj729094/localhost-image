@@ -11,12 +11,12 @@ function App() {
   const arr = ["Strap - Long", "Color", "Size", "Brand", "Material"]
   return (
     <div className='maincon fixed w-full h-full  sm:flex sm:justify-center sm:items-center sm:py-4 '>
-      <div className='innercon overflow-y-auto bg-white  overflow-x-hidden w-full  h-full sm:w-[24rem]  rounded-xl xl:h-[35rem] p-2'>
+      <div className='innercon overflow-y-auto bg-white   w-full  h-full sm:w-[24rem]  rounded-xl xl:h-[35rem] p-2'>
       <div className=''>
         <div className=" header rounded-tl-xl rounded-tr-xl sticky top-0 z-10 flex justify-between items-end text-blue-500 px-3 bg-blue-100 py-3 text-lg">
           <div className=" assistantprofile flex items-center gap-2">
             <div className=' relative'>
-            <div className='relative  rounded-full w-12 h-12 bg-white flex overflow-hidden'>
+            <div className='relative  rounded-full w-12 h-12 bg-white flex '>
               <img src="https://s3-alpha-sig.figma.com/img/6baa/a9c9/7cbb691d0bf8e4efbb09d8e91c2e986c?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=eVKRkgBouutMMUdNZ4ueKNPi9bMhMMLnISqKPW-dU~MBc42xjue~8j9hjcAqiIuzuss-XINFsTsBr3j3uYZDwiAg15nW1A6AFCj0dZFYt30YWmdEiODBg3FC3k~HdvMl18054D9LgeKrHAXqWUv4HmMsAIgytLrj7gdFK4vxRO1lXauNiVREtHHOM8PW768rYkYpoTkZc-excULb67QdJIr3rcTV-G4jUKPQjo5j9HDZr-fdphQ8APPByY75NO7uCpCwD9oZbGkJmKs6vuvoljm6Xyg7V0bDIoqte8kAnPTya7nVvumDK2an5YZcLGJtCwajrUFoTlmHjTu2gFSmBA__" alt="" className=' absolute top-0 left-[-13px] max-w-max w-16 h-16' />
              
             </div>
