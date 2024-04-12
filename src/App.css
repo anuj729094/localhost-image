@@ -1,0 +1,29 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; 
+  font-family: "Poppins", sans-serif;
+}
+.maincon{
+  background: linear-gradient(to bottom , #E6EEFF , #E6EEFF);
+}
+.first{
+  background: linear-gradient(to right , #E6EEFF , #E6EEFF);
+
+}
+.maincon::-webkit-scrollbar{
+  display: none;
+}
+.innercon::-webkit-scrollbar{
+  display: none;
+}
+.listoftags::-webkit-scrollbar{
+  display: none;
+}
+.listofilters ul li{
+  background-color: rgb(197 194 194 / 28%);
+  padding: 0.5rem;
+  display: flex;
+  align-items:  center;
+  border-radius: 0.25rem;
+}
